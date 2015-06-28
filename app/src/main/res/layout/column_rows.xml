@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/stock_Code"
+        android:layout_height="wrap_content"
+        android:layout_width="3dp"
+        android:layout_weight="1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/buy_price"
+        android:layout_height="wrap_content"
+        android:layout_width="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/mk_price"
+        android:layout_height="wrap_content"
+        android:layout_width="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/chage_per"
+        android:layout_height="wrap_content"
+        android:layout_width="1dp"
+        android:paddingLeft="5dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
